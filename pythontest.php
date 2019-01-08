@@ -1,10 +1,12 @@
 
 
 <?php
+print("my name is php");
 
-echo "print hello";
 
-echo "print php";
 
-echo "print hello";
+print("my name is php");
+
+
+
 ?>
