@@ -6,10 +6,7 @@
 # it wants to stop the commit.
 #
 # To enable this hook, rename this file to "pre-commit".
-
-pwd=$(pwd);
-
-echo pwd
+echo "printing here..."
 
 if git rev-parse --verify HEAD >/dev/null 2>&1
 then
