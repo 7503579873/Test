@@ -1,1 +1,1 @@
-print("kya baat hai")
+print("its too late")
