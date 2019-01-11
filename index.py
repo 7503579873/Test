@@ -1,3 +1,3 @@
 
-print("Hello Python1");
-print("Hello Python");
+print("hi vvdn");
+print("Hello vvdn2");
