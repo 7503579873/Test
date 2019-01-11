@@ -1,1 +1,8 @@
-buildPlugin()
+
+stage('select'){
+    def workspace = pwd()
+    files = []
+    new File  ("$workspace/buildFile").eachFile(FileType.FILES) { files << it.name }
+
+    BuildFile = input( id: 'userInput', message: 'Sélectionner un backup', parameters: [ [$class: 'ChoiceParameterDefinition', choices: files , description: 'Properties', name: 'param'] ])   
+}
